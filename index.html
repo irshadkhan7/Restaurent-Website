@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/brands.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Food Hub</h1>
+            </div>
+            <div class="input">
+                <input type="text" value="" id="inp" placeholder="Search Bar..." onkeyup="myFun()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon">
+                <i onclick="login()" class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i onclick="nav()" class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+<!-- Login start -->
+
+<div class="login">
+    <h2>Log In </h2>
+    <input type="text" placeholder="Enter Your Name">
+    <input type="password" placeholder="Enter password"><br>
+    <button>Log In</button>
+</div>
+
+<!-- Nav Start -->
+<div class="nav">
+    <p>Home</p>
+    <p>Food</p>
+    <p>Blogs</p>
+    <p>Customer</p>
+</div>
+    <!-- main -->
+        <main>
+       <div class="main">
+        <div class="text">
+            <h1>Foods  & Tasty Recipes</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit fuga quam harum, facilis consequuntur aliquid odit vitae commodi similique quas?</p>
+            <button>Explore More</button>
+        </div>
+        <img src="/img/burger.png" alt="">
+       </div>
+        </main>
+    </div>
+    <!-- card Food -->
+    <table>
+        <tr>
+            <td>
+                <div class="head">
+                    <h1>Our <span>Foods</span></h1>
+                </div>
+                <div class="crd">
+                 <div class="card">
+                    <img src="/img/burger1.jpg">
+                    <h2>299 Rupees Only</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, animi!</p>
+                    <button>Order Now</button>
+                 </div>
+                 <div class="card">
+                    <img src="/img/burger1.jpg">
+                    <h2>299 Rupees Only</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, animi!</p>
+                    <button>Order Now</button>
+                 </div>
+                 <div class="card">
+                    <img src="/img/burger1.jpg">
+                    <h2>299 Rupees Only</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, animi!</p>
+                    <button>Order Now</button>
+                 </div>
+                </div>
+                <div class="crd">
+                    <div class="card">
+                       <img src="/img/burger1.jpg">
+                       <h2>299 Rupees Only</h2>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, animi!</p>
+                       <button>Order Now</button>
+                    </div>
+                    <div class="card">
+                       <img src="/img/burger1.jpg">
+                       <h2>299 Rupees Only</h2>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, animi!</p>
+                       <button>Order Now</button>
+                    </div>
+                    <div class="card">
+                       <img src="/img/burger1.jpg">
+                       <h2>299 Rupees Only</h2>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, animi!</p>
+                       <button>Order Now</button>
+                    </div>
+                   </div>
+            </td>
+        </tr>
+<!-- Blogs -->
+<tr>
+    <td>
+        <div class="head">
+            <h1>Our <span>Blogs</span></h1>
+        </div>
+        <div class="crd">
+            <div class="blog">
+               <img src="https://cdn.pixabay.com/photo/2021/02/28/09/38/food-6056720_1280.jpg">
+               <h2>Fact Abut Indian Food </h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, animi!</p>
+               <a href="https://www.littleindiaofdenver.com/blog/7-facts-you-never-knew-about-indian-food/">Read More</a>
+
+            </div>
+            <div class="blog">
+               <img src="https://cdn.pixabay.com/photo/2020/10/05/19/55/hamburger-5630646_960_720.jpg">
+               <h2> Diffrent Type of Burger</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, animi!</p>
+               <a href="https://theburgerblog.com/recipes/">Read More</a>
+            </div>
+            <div class="blog">
+               <img src="https://cdn.pixabay.com/photo/2015/03/11/00/31/chicken-667935_960_720.jpg">
+               <h2>Delicious Checken Recipes</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, animi!</p>
+               <a href="https://www.chickencheck.in/blog-2/">Read More</a>
+            </div>
+        </div>
+    </td>
+</tr>
+    </table>
+
+
+    <!-- Coustemer -->
+     <div class="heads">
+        <h1>Customer <span>Review</span></h1>
+     </div>
+     <div class="review">
+        <div class="Customer">
+            <img src="/img/sir1.png" alt=""><br>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half"></i>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora labore excepturi officia minima facilis consequatur.</p>
+        </div>
+        <div class="Customer">
+            <img src="/img/sir2.png" alt=""><br>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half"></i>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora labore excepturi officia minima facilis consequatur.</p>
+        </div>
+        <div class="Customer">
+            <img src="/img/ik.png" alt=""><br>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half"></i>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora labore excepturi officia minima facilis consequatur.</p>
+        </div>
+     </div>
+     <div class="btn">
+        <button onclick="pre()">prew</button>
+        <button onclick="next()">next</button>
+    </div>
+
+     <!-- footer -->
+     <div class="footer">
+        <div class="text">
+            <h2>Abut US</h2>
+            <p>Lorem ipsum dolor sit amet<br> consectetur adipisicing elit. Excepturi, magni!</p>
+            <p>Services</p>
+            <p>Customer</p>
+            <p>Food</p>
+        </div>
+        <div class="text">
+            <h2>Abut US</h2>
+            <p>Product</p>
+            <p>Services</p>
+            <p>Customer</p>
+            <p>Food</p>
+        </div>
+        <div class="text">
+            <h2>Abut US</h2>
+            <p>Near</p>
+            <p>Services</p>
+            <p>Customer</p>
+            <p>Food</p>
+        </div>
+        <div class="text">
+            <h2>Abut US</h2>
+            <p>Websites</p>
+            <p>Services</p>
+            <p>Customer</p>
+            <p>Food</p>
+        </div>
+     </div>
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>
