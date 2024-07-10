@@ -1,3 +1,5 @@
+//Search function 
+
 function myFun(){
     let searchVal = document.getElementById("inp").value.toUpperCase();
     let table = document.getElementsByTagName("table")
@@ -24,7 +26,7 @@ let front = document.querySelector(".main")
     }
     console.log(searchVal);
 }
-// onclick function
+// onclick function Login Nav
 function nav(){
  let nav = document.querySelector(".nav");
     nav.style.display="block"

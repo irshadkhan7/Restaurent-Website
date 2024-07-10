@@ -92,7 +92,7 @@ p{
 .crd{
     display: flex;
     color: black;
-    margin-left: 222px;
+    margin-left: 152px;
     justify-content: center;
 }
 .crd .card{
@@ -176,7 +176,7 @@ p{
     text-align: center;
 }
 .Customer img{
-    width: 17%;
+    width: 21%;
     border-radius: 20%;
 }
 .Customer p{
